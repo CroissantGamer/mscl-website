@@ -16,4 +16,4 @@ The event is organized into 6 leagues based on skill levels. Players are seeded 
 
 Each week, all players in a league play a set number of matches against other players in the same league. Higher leagues can afford to play more matches, while lower leagues play fewer matches. The exact number of matches are listed above.
 
-League 4-6 won't play buried treasure, and league 6 won't play ruined portal as well.
+League 4-6 won't play buried treasure.

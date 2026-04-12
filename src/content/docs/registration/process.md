@@ -13,7 +13,7 @@ After that, wait for the admins to verify your registration. Once verified, you 
 
 ## Playing in a week
 
-If you decide to play in a specific week, make sure your Minecraft Ranked account is linked to your Discord and do `/reg` in your league channel. If you're planning on streaming the event, paste your Twitch channel as well. This will register you for the week. If you register and don't play, you will be given 0 points and potentially relegated. If you need to unregister, you can use the `/unreg` command. This will remove you from the seeding for that week. You must register to play!
+If you decide to play in a specific week, make sure your Minecraft Ranked account is linked to your Discord and do `/reg` in your league channel. If you're planning on streaming the event, paste your Twitch channel as well. This will register you for the week. If you register and don't play, you will be given 0 points and potentially relegated. If you need to unregister, you can use the `/unreg` command before the match starts. This will remove you from the seeding for that week. You must register to play!
 
 (Note: `/reg` is only allowed a couple hours before the matches start to prevent people from registering and not playing.)
 
