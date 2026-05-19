@@ -39,7 +39,7 @@ The schema lives in `convex/schema.ts`. Below is the simplified schema:
   - `currentLeagueId: Id<"leagues">`
 - `leagues`
   - `name: string` _(e.g. "League 1")_
-  - `tierLevel: number` _(1 = highest, 6 = lowest)_
+  - `tierLevel: number` _(1 = highest, 7 = lowest)_
 - `weeks`
   - `weekNumber: number` _(1, 2, 3, …)_
   - `isCurrent: boolean`
@@ -95,7 +95,7 @@ Upserts players and their league tiers.
   {
     "name": "string",
     "elo": 1500,
-    "leagueTier": 1 // Accepts 1, 2, 3, 4, 5, or 6
+    "leagueTier": 1 // Accepts 1, 2, 3, 4, 5, 6 or 7
   }
 ]
 ```
@@ -129,7 +129,7 @@ Upserts a single match and its per‑player results. Re‑posting the same `(wee
 {
   "weekNumber": 1,      // Integer >= 1
   "matchNumber": 1,     // Integer >= 1
-  "leagueTier": 1,      // Accepts 1 through 6
+  "leagueTier": 1,      // Accepts 1 through 7
   "rankedMatchId": "string", // The ID of the match on the MSCR ranked api
   "results":[
     {
@@ -179,7 +179,7 @@ Finalizes the week by computing standings, promotions, and relegations based on 
     {
       "name": "string",
       "elo": 1550,
-      "leagueTier": 1      // Accepts 1 through 6
+      "leagueTier": 1      // Accepts 1 through 7
     }
   ]
 }
